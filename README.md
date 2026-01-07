@@ -1,14 +1,21 @@
-## Titanic Survival Prediction
+# Titanic Survival Prediction
 
-End-to-end machine learning notebook using Random Forests to predict
-Titanic passenger survival.
+This project demonstrates an end-to-end machine learning workflow to predict
+passenger survival on the Titanic dataset using a Random Forest classifier.
 
-### Contents
-- Data preprocessing and feature engineering
-- Model training and validation
-- Accuracy evaluation
-- Final test set predictions
+## What this notebook covers
+- Data loading and preprocessing
+- Feature engineering and encoding
+- Train/validation split
+- Model training and accuracy evaluation
+- Final survival predictions for the test dataset
 
-### How to run
+## Dataset
+- `train.csv`: labelled training data (includes Survived)
+- `test.csv`: unlabelled test data (used for prediction only)
+
+## How to run
+```bash
 pip install -r requirements.txt
 jupyter notebook
+
